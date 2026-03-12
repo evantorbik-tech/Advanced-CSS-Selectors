@@ -17,3 +17,20 @@ th {
 }
 
 /* Add styles here */
+
+.container:first-child::first-line{
+  color: red;
+}
+
+a{
+  color: orange;
+}
+
+tr:nth-child(even){
+  color: white;
+background-color: #333333;
+}
+
+.container p:nth-child(1){
+  font-size: 25px;
+}

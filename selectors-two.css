@@ -2,3 +2,19 @@ body {
   font: 1.2em / 1.5 sans-serif;
 }
 /* Add styles here */
+
+h2[id]{
+  background-color: yellow;
+}
+
+.go{
+  background-color: green;
+}
+
+.alert{
+  border:  2px solid grey;
+}
+
+.stop{
+  background-color: red;
+}

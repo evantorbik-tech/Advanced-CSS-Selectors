@@ -2,4 +2,18 @@ body {
   font: 1.2em / 1.5 sans-serif;
 }
 
-/* Add styles here */
+.container p:nth-child(2){
+  color: red;
+}
+
+.container p:nth-child(5){
+  color: red;
+}
+
+.list>li{
+  border-bottom: 1px solid gray;
+}
+
+.list{
+  list-style-type: none;
+}
